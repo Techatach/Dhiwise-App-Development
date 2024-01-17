@@ -110,14 +110,29 @@ const Navbar = () => {
                     คณาจารย์
                   </Text>
                 </a>
-                <a href="/sigleblog">
+
+                {/* <a href="/sigleblog">
                   <Text
                     className="text-lg text-white-A700 tracking-[-0.50px]"
                     size="txtInterSemiBold18"
                   >
                     ข่าวสารและกิจกรรม
                   </Text>
+                  </a> */}
+
+                <a
+                  href="http://localhost:5173/user"
+                  target="_blank"
+                  rel="noopener, noreferer"
+                >
+                  <Text
+                    className="text-lg text-white-A700 tracking-[-0.50px]"
+                    size="txtInterSemiBold18"
+                  >
+                    การประเมินผล
+                  </Text>
                 </a>
+
                 <a href="/dhiwise-dashboard">
                   <Text
                     className="text-lg text-white-A700 tracking-[-0.50px]"
