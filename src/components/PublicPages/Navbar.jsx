@@ -35,14 +35,28 @@ const Navbar = () => {
                     หน้าหลัก
                   </Text>
                 </a>
-                <a href="/sigleblog">
+
+                <a
+                  href="http://localhost:5174/"
+                  target="_blank"
+                  rel="noopener,noreferer"
+                >
+                  <Text
+                    className="text-lg text-white-A700 tracking-[-0.50px]"
+                    size="txtInterSemiBold18"
+                  >
+                    การประเมินนโยบาย
+                  </Text>
+                </a>
+
+                {/* <a href="/sigleblog">
                   <Text
                     className="text-lg text-white-A700 tracking-[-0.50px]"
                     size="txtInterSemiBold18"
                   >
                     เกี่ยวกับ
                   </Text>
-                </a>
+                </a> */}
 
                 <a
                   href="http://127.0.0.1:5000/index"
